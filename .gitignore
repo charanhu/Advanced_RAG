@@ -1,0 +1,6 @@
+venv/
+data/
+.env
+setup_env.sh
+ssh
+ssh.pub
