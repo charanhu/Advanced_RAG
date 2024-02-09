@@ -10,7 +10,7 @@ from langchain.chains.question_answering import load_qa_chain
 from ga_model import watsonx_llm
 
 # Load the content of PDF documents
-loader = PyPDFLoader("./environment.pdf")
+loader = PyPDFLoader("test.pdf")
 documents = loader.load()
 
 # Load the embedding model 
