@@ -5,9 +5,11 @@ bot = AGENT()
 
 agent = bot.create_agent()
 
+
 def chatbot_response(query):
     response = agent(query)
     return response
+
 
 def main():
     st.title("LangChain agent with DuckDuckGo")
@@ -34,6 +36,7 @@ def main():
             st.markdown(response)
         # Add assistant response to chat history
         st.session_state.messages.append({"role": "assistant", "content": response})
+
 
 if __name__ == "__main__":
     main()

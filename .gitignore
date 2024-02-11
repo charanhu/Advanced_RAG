@@ -4,3 +4,8 @@ data/
 setup_env.sh
 ssh
 ssh.pub
+venv/ 
+data/ 
+.env 
+env.bat 
+__pycache__/ 
